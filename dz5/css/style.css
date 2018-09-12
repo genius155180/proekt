@@ -1,0 +1,467 @@
+*{
+	font-family: 'Roboto Slab', serif; 
+	list-style: none;
+    outline: none;
+}
+a{
+   font-family: 'Roboto Slab', serif;
+   color: #2F1059;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;}
+    .logo{
+        padding-top: 11px;
+        height: 72px;
+        width: 252px;
+        display: block;
+    }
+    .nav li{
+        float:right;
+        font-family: 'Roboto Slab', serif;
+        margin-right: 19px;
+        font-weight: bold;
+        color: #000000;
+        font-size: 14px;
+        margin-top: 45px;
+    }
+    .nav li a{
+        color: black;
+    }
+    .nav li a:hover{
+        color: #A3453D;
+    }
+    .nav{
+        margin-top: -81px;
+        margin-right: 214px;
+    }
+    .number_button{
+        float: right;
+        margin-top: -40px;
+        color: #2F1059;
+        font-weight: bold;
+    }
+    .number,.number2{
+        font-size: 21px;
+    }
+    .button,.button2{
+        margin-left: 21px;
+        margin-top: 7px;
+    }
+    
+    .button a,.button2 a{
+        display: block;
+        width: 156px;
+        height: 36px;
+        border: 1px solid #2F1059;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-left: 8px;
+
+    }
+    .button span,.button2 span{
+        font-size: 14px;
+    }
+
+    #seacond_section{
+       background: url(../img/fon.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size:cover;
+       margin-top: 40px;
+       height: 627px;
+   }
+   .baner{
+    margin-top: 36px;
+    margin-left:90px;
+}
+.baner_disc{
+    margin-top: -150px;
+    margin-left:270px;
+    color: #2F1059;
+    font-family: 'Roboto Slab', serif;
+}
+.baner_disc_first{
+    font-size: 22px;
+}
+.baner_disc_maintext{
+    font-size: 43px;
+    margin-left: -120px;
+    text-transform: uppercase;
+}
+.baner_disc_lasttext{
+    font-size: 20px;
+    margin-top: -23px;
+    margin-left:50px;
+}
+.form{
+    background: url(../img/baner.png) no-repeat 250px;
+    margin-top: 180px;
+    margin-left: -105px;
+    height: 360px;
+
+
+}
+
+
+.caption_form_firstcaption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: -300px;
+}
+.caption_form_disc{
+    color: #fff;
+    font-size: 17px;
+    margin-left: 30px;
+
+}
+.caption_form{
+    margin-left: 450px;
+    padding-top:80px;
+}
+button{
+    width: 274px;
+    height: 51px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #D22828;
+    border: none;
+    color: #fff;
+    border:1px solid #D22828;
+    border-radius: 5px;
+}
+.form_input_first{
+    display: inline-block;}
+    .radius{
+        border:1px solid #e9dff6;
+        border-radius: 5px;
+    }
+
+    .form_input_first input{
+        height: 47px;
+        width: 180px;
+        padding-left: 10px;
+        font-size: 16px;
+        background-color: #e9dff6;
+        border: none;
+    }
+    .buttons{
+        margin-top: 30px;
+        margin-left: 350px;
+
+    }
+    .white{
+        background-color: #E9DFF6;
+    }
+    .form_input_first i{
+        padding-left: 20px;
+    }
+    .items_list{
+        background:url(../img/items.png) no-repeat;
+        height: 366px;
+        margin-top: 80px; 
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6{
+        text-align: center;
+        font-size: 17px;}
+
+
+
+        .item1{
+            height: 32px;
+            width: 96px;
+            padding-top: 160px;
+            margin-left: 30px;
+
+        }
+        .item2{
+            width: 122px;
+            height: 33px;
+            margin-top:-50px;
+            margin-left: 222px;
+        }
+        .item5{
+            width: 124px;
+            height: 52px;
+            margin-left: 420px;
+            margin-top: -100px;
+        }
+        .item3{
+            height: 56px;
+            width: 103px;
+            margin-left: 630px;
+            margin-top: -100px;
+        }
+        .item4{
+            width: 112px;
+            height: 52px;
+            margin-top: -5px;
+            margin-left: 825px;
+        }
+        .item6{
+            width:180px; 
+            height:52px;
+            margin-left:985px;
+            margin-top:68px;
+        }
+        .term_blok{
+            background-image: url(../img/bluefon.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 247px;
+            margin-top: -50px;
+        }
+        .term h3{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            padding-top: 30px;}
+
+            .term p{
+                font-size: 20px;
+                color: #fff;
+                margin-left: 460px;
+                margin-top: 15px;
+                font-weight: 200;}
+                .advantages_caption{
+                    text-align: center;
+                    margin-top: 40px;
+
+                }
+                .advantages_image_desc{
+                    text-align: center;
+                    margin-top: -20px;
+
+                }
+                .itm2{
+                    margin-top: 50px;
+                }
+                .advantages_caption p{
+                    font-size: 20px;
+                }
+                .advantages_image_item{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: -48px;
+                }
+                .advantages_image{
+                    margin-bottom: 76px;
+                }
+                .infrastructure_blok{
+                    background: url(../img/infblok.png) no-repeat;
+                    background-size: cover;
+                    height: 653px;
+                    padding-top: 77px;
+                }
+                .advantages_caption h2,.infrastructure_blok h2{
+                    text-align: center;
+                    font-size: 37px;
+                }
+                .infrastructure_blok_list span{
+                    width: 335px;
+                    display: block;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                    
+
+                }
+                .infrastructure_blok_list li{
+                    margin-bottom: 10px;
+                    border-bottom: 1px solid #DAE8DA;
+                    width: 350px;padding-bottom: 10px;
+
+                }
+                .infrastructure_blok_list ul{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: 40px;
+                }
+                .infrastructure_blok_list{
+                    margin-top: 40px;
+                }
+                .light_benefits_blok_left{
+                    background: url(../img/Hourglass.png) no-repeat left center;
+                    height: 70px;
+                    display: block;
+                    padding-left: 70px;
+                    padding-top: 15px;
+                }
+                .light_benefits_blok_center{
+                    background: url(../img/SchoolCrossing.png) no-repeat left center;
+                    height: 70px;
+                    display: block;
+                    padding-left: 70px;
+                    padding-top: 15px;
+                }
+
+                .light_benefits_blok_right{
+                    background: url(../img/TreeStructure.png) no-repeat left center;
+                    height: 70px;
+                    display: block;
+                    padding-left: 70px;
+                    padding-top: 15px;
+                }
+
+                .light_benefits ul{
+                    display: inline-block;
+                    margin-left: 40px;
+                    color: #fff;
+                }
+                .light_benefits{
+                    padding-top: 50px;
+                }
+                .light_benefits_blok_left_intro{
+                    font-weight: bold;
+                }
+                .light_benefits_blok_left_desc{
+                    font-weight: 200;
+                }
+                .construction_blok h2,.bunding_blok_caption{
+                    font-size: 37px;
+                    text-align: center;
+                    margin-bottom: 45px;
+                }
+                .offers_blok_left{
+                    height: 355px;
+                    width: 301px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: 72px;
+                }
+                .offers_blok{
+                    margin-left: 65px;
+                }
+                .offers_blok_caption{
+                    text-align: center;
+                    padding-bottom: 17px;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+                .construction_blok{
+                    margin-top: 85px;
+                }
+                .offers_blok_desc{
+                    padding-top: 25px;
+                    font-size: 15px;
+                }
+                .bunding_blok{
+                    background: url(../img/greenfon.png);
+                    height: 464px;
+                    margin-top: 70px;
+                }
+                .bunding_blok_caption{
+                    color: #fff;
+                    padding-top: 75px;
+                    font-weight: bold;
+                }
+                .bunding_blok_list ul{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 23px;
+                }
+                .fa-check-circle{
+                    color: #fff;
+                    margin-right: 3px;
+                }
+                .bunding_blok_list li{
+                    margin-bottom:20px;
+                    color: #fff;
+                    font-weight: 200;
+                }
+                .bunding_blok_list div{
+                    margin-left: 25px;
+                    color: #fff;
+                    font-weight: bold;
+                    margin-bottom: 32px;
+                }
+                .bunding_blok_list{
+                    margin-left: 10px;
+
+                }
+                .document_blok{
+                    background: url(../img/docblok.png) no-repeat;
+                    height: 577px;
+                    text-align: center;
+                    padding-top: 84px;
+                }
+                .document_blok_caption{
+                    color: #000000;
+                    font-size: 37px;
+                    font-weight: bold;
+                }
+                .document_blok_desc{
+                    font-size: 21px;
+                }
+                .document_list li{
+                    display: inline-block;
+                    margin-left: 30px;
+                }
+                footer{
+                    height: 120px;
+                    background-color:#000;
+                    color: #fff;
+                }
+                .footer_blok .float{
+                    display: inline-block;
+                    vertical-align:top;
+                    margin-left: 55px;
+                }
+                .button2 a{
+                    border: 1px solid #fff;
+                }
+                .button2 span{
+                    color: #fff;
+                }
+                .number2{
+                    color: #fff;
+                }
+                .color{
+                    color:#fff; 
+                }
+                .footer_blok{
+                    padding-top: 20px;
+                }
+                .policy a{
+                    color: #fff;
+                    font-weight: 200;
+                    border-bottom: 1px dotted #fff;
+                }
+                .policy a:hover{
+                    color: #FF0004;
+                    border-bottom: 1px dotted #FF0004 ;
+                }
+                .policy{
+                    font-size: 13px;
+                    font-weight: 200;
+                    margin-top: 20px;
+                    width: 213px;
+                    height: 30px;
+
+                }
+                .address p,.E-mail{
+                   font-weight: 200;
+                   font-size: 13px;
+
+                }
+                .logo2{
+                    margin-top: 5px;
+                }
+                .buttons2{
+                    margin-top: 1px;
+                }

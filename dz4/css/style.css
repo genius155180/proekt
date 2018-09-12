@@ -1,0 +1,234 @@
+*{
+	font-family: Tahoma,sans-serif;
+	list-style: none;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	width: 940px;
+	margin:0 auto;
+	padding-top: 54px;
+}
+#header{
+	background: #4E8598 no-repeat center top / cover;
+	
+	height: 668px;}
+
+	.logo{
+		text-align: center;
+
+	}
+	.offer{
+		font-weight: bold;
+		font-size: 27px;
+		color:#FFFFFF;
+		text-align: center;
+		margin-top: 192px;
+	}
+
+
+	.offer_button{
+		display: block;
+		padding: 20px 0px;
+		color: #FCFDFD;
+		width: 218px;
+		border: 1px solid #FCFDFD;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 28px;
+		border-radius: 30px;
+	}
+	.buttoms{
+		margin-left: 361px;
+	}
+	
+
+	.navigation_arrow{
+		text-align: center;
+		padding-top:140px;}
+		.about_me_title{
+			text-align: center;
+			color: #2f383b;
+			font-weight: bold;
+			font-size: 26px;
+			margin-top: 20px;
+		}
+		
+		.missions{
+			float: left;
+
+		}
+
+		.items_first{
+			margin-top: 88px;
+		}
+		.about_missions,.about_merit{
+			font-size: 22px;
+			font-weight: bold;
+			color: #2f383b;
+			text-transform: uppercase;
+
+		}
+		.line{
+			height: 3px;
+			width: 72px;
+			display: block;
+			background: #4e8598;
+			margin-top: 10px;
+		}
+		.information{
+			height: 290px;
+			width: 425px;
+			margin-top: 15px;
+			line-height: 1.4em;
+			float: left;
+		}
+		.merit{
+			float: right;
+			width: 453px;
+		}
+
+		.infolist{
+			margin: 0;
+			padding: 0;
+			
+		}
+		
+		
+		.infolist li{
+			display: block;
+		}
+
+
+		.infolist li span{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right:10px;}
+
+			.infolist li img{
+				max-width: 30px;
+				margin-right: 5px;
+				margin-top: 15px;
+			}
+			.information_strong{
+				color: #4E8598;
+			}
+			.translit{
+				color: #B0B2B3;
+			}
+			.ficsion{
+				margin-left: 10px;
+			}
+			
+.сauses{
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 70px;
+}
+.steps_items_num{
+	display: block;
+	width: 75px;
+	height: 75px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 19px;
+	font-size: 30px;
+	margin-bottom: 18px;
+	margin-left: 65px;
+}
+.steps_items_num:hover{
+	color: #FFFFFF;
+	background-color: #2F383B;
+}
+.steps_items_desc{
+	color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;}
+
+.steps_items{
+		width: 220px;
+		display: inline-block;
+		margin-right: 50px;
+		margin-left: 35px;
+	}
+
+
+.all_causes{
+	text-align:center;
+	}
+
+
+.call_to_action{
+	text-align: center;
+	margin-top: 64px;
+}
+.action1{
+	font-weight: bold;
+	font-size: 22px;
+	color: #2F383B;
+}
+.descrip{
+	margin-top: 30px;
+	font-size: 14px;
+	color: #2F383B;
+}
+.call_to_button{
+	display: block;
+	color: #FFFFFF;
+	background-color: #2F383B;
+	height: 55px;
+	width: 218px;
+	margin-top: 27px;
+	padding-top: 18px;
+	border:1px solid #2F383B;
+	border-radius: 40px;
+
+}
+.descrip2{
+	margin-left:360px; 
+}
+
+.footer{
+	margin-top: 75px;
+	width: 100%;
+	height: 113px;
+	background-color: #2F383B;
+
+}
+.nav_footer li:last-child{
+	float: right;
+	color: #FFFFFF;
+	margin-top: -18px;
+	display: block;
+	border-bottom:1px dotted #FFFFFF ;
+}
+
+.nav_footer li:nth-child(1){
+	float: left;
+	color: #FFFFFF;
+display: block;}
+.nav_footer li:nth-child(2){
+	margin-left:400px;
+	color:#FFFFFF;
+	display: block;
+	
+
+}
+.footer a{
+	color: #FFFFFF;
+}
+	.footer a:hover{
+	color: #B5B7B8;
+    border-bottom:1px dotted #B5B7B8;
+}
+
+

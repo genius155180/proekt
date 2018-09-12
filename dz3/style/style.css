@@ -1,0 +1,303 @@
+
+
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+}
+
+
+
+ul{
+	list-style-type:none;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.left{float: left;}
+.right{float: right;}
+
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+header{
+	background:#22A2EC;
+	height: 82px;
+	width:100%;
+}
+
+.logo{
+	padding:30px 45px; 
+	font-size: 22px;
+	color:#FFFFFF;
+	float: left;
+	font-weight: bold;
+	margin-right: 124px;
+}
+.section_two{
+	margin-top: -17px;
+}
+
+.menu{
+	float: left;
+	padding-top: 33px;
+	color: #FFFFFF;
+
+}
+.menu li{
+	float: right;
+	margin-right:29px;
+	list-style-type: none;
+	font-weight: bold;
+
+
+}
+.menu li a{
+	color:#FFFFFF;
+
+}
+.number{
+	font-weight: bold;
+	color:#FFFFFF;
+	font-size: 18px;
+	padding-top: 30px;
+	margin-left: 270px;
+	width: 160px;
+	float: left;
+}
+.second_section{
+	display: block;
+	margin: 55px 0px 55px 44px;
+	width: calc(100%-44px);
+
+}
+
+h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+#paragraph{
+	font-size: 15px;
+	margin-top: 24px;
+	line-height: 1.6;
+}
+
+.section_items{
+	margin: 52px 0px;}
+
+
+
+	.item3{
+		height: 246px;
+		width: 330px;}
+
+		.item1{
+			border: 1px solid silver;
+			height: 246px;
+			width: 330px;}
+
+			.item2{
+				border: 5px solid silver;
+				height: 240px;
+				width: 330px;}
+
+				.item1,.item3,.item2{
+					padding-top:30px;
+					padding-left: 29px;
+				}
+				.item3{
+
+					-webkit-box-shadow: 0px 0px 84px -9px rgba(0,41,41,0.76);
+					-moz-box-shadow: 0px 0px 84px -9px rgba(0,41,41,0.76);
+					box-shadow: 0px 0px 84px -9px rgba(0,41,41,0.76);}
+
+					ul li{
+						float: left;
+					}
+
+					li{
+						margin-right: 55px;
+					}
+
+					.next{
+						margin-top: 13px;
+						height: 14px;
+						display: block;
+						color: #22A2EC;
+						font-weight: bold;}
+
+
+
+
+
+
+
+						.news_block1{
+							padding: 43px 39px;
+
+						}
+
+						.par_article{
+							height: 165px;
+							width: 317px;
+							margin-top: 27px;
+							line-height: 1.5;
+							width: 315px;
+						}
+
+
+						.news_block{
+							height: 301px;
+							width: 771px;
+							background-color: #184C6B;
+							border-radius: 12px;
+							color: #C0DDEE;
+							margin-right: 105px;
+							margin-top: 22px;
+						}
+
+						.zag_1{
+							font-size: 21px;
+							font-weight: bold;}
+
+
+							.section_3{
+								display: block;
+								margin: 55px 0px 55px 44px;
+
+							}
+
+							.title2{
+								font-size: 20px;
+								font-weight: bold;
+							}
+
+							.form_first{
+								margin-top: 10px;
+							}
+
+							input{
+								margin-bottom: 11px;
+								height: 46px;
+								width: 239px;
+								padding:16px 23px;
+							}
+
+							textarea{
+								height: 124px;
+								width: 359px;
+							}
+
+							button{
+								background-color: #EBCE0D;
+								height: 43px;
+								width: 166px;
+								border: none;
+								margin-top: 23px;
+								font-weight: bold;
+								font-size: 15px;
+								outline: none;
+							}
+
+							.img_news{
+								margin-top: -205px;
+								margin-right:43px;
+							}
+							#par_1{
+								margin-top: 16px;
+							}
+
+							.next_form{
+								font-size: 12px;
+								color: #84898D;
+								margin-top: 22px;
+							}
+
+							.footer{
+								background-color: #22A2EC;
+								height: 71px;
+								margin-top: 43px;
+							}
+
+							.footer_container{
+								padding-top:29px;
+								padding-left: 37px;
+							}
+							.save{
+								color:#FFFFFF;
+								;
+							}
+							.buttons_footer{
+								margin-right: 40px;
+								display: block;
+
+							}
+							.buttons_footer a{
+								display: block;
+								font-size:12px;
+								font-weight: bold;
+								text-decoration: none;
+								color: #FFFFFF;
+								padding-top: 11px;
+								padding-left:20px; 
+
+
+
+
+
+							}
+							.but1,.but2{	
+								height: 37px;
+								width:148px;
+								border: 1px solid #FFFFFF;
+								border-radius: 5px;
+								margin-top: -12px;}
+
+								.but3{
+									margin-top: -10px;
+									height: 37px;
+									width:229px;
+									background-color:#FFFFFF; 
+									
+									border-radius: 3px;
+									font-size: 12px;
+									color: #22A2EC;
+									margin-right: 190px;
+									
+
+
+
+								}
+								.but2{
+									border-radius: 20px;
+								}
+
+								#but3_3{
+									display: block;
+									margin-top:12px;
+									margin-left: 25px;
+								}
+
+								.hero_text{
+									font-size: 13px;
+									color: #EBF6FD;
+								}
+
+								.ss{
+									display: block;
+									height: 37px;
+									width: 148;
+									}
