@@ -1,0 +1,42 @@
+body{
+	font-family:"PT Sans", sans-serif;
+}
+a{
+	font-family:"PT Sans", sans-serif;
+}
+header{
+	background: #fcdb00 none center top;
+	height: 100vh;
+
+}
+.logo{
+	margin-top: 55px;
+}
+ul li{
+	display: block;
+	margin-left: 62px;
+	margin-top: 55px;
+}
+ul li a{
+	font-weight: bold;
+	font-size: 22px;
+	color: #010101;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+.ipad{
+	display: block;
+	margin: 60px auto 0px;
+	padding-bottom: 90px;
+}
+.item{
+	margin-top: 134px;
+	
+}
+.app__list{
+	align-items: flex-start;
+}
