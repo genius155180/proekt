@@ -1,19 +1,22 @@
 body{
 	font-family:"PT Sans", sans-serif;
 }
+li{
+	display: block;
+}
 a{
 	font-family:"PT Sans", sans-serif;
 }
 header{
 	background: #fcdb00 none center top;
-	height: 100vh;
+	
 
 }
 .logo{
+	display: block;
 	margin-top: 55px;
 }
-ul li{
-	display: block;
+.nav li{
 	margin-left: 62px;
 	margin-top: 55px;
 }
@@ -31,12 +34,94 @@ a:active{
 .ipad{
 	display: block;
 	margin: 60px auto 0px;
-	padding-bottom: 90px;
+	margin-bottom:107px;
+	
 }
 .item{
 	margin-top: 134px;
 	
 }
-.app__list{
-	align-items: flex-start;
+.app__list li{
+	margin-right: 38px;
+	margin-top: 42px;
 }
+h1{
+	margin-bottom: 23px;
+	font-weight: bold;
+	font-size: 32px;
+}
+.item__transcription{
+font-size: 20px;
+font-weight: 400;
+color: #313841;
+}
+.item__desc{
+	font-size: 16px;
+	color: #555555;
+
+}
+.features{
+	margin-top: 119px;
+}
+.item__transcriptions{
+	margin-bottom: 93px;
+}
+.fa{
+	font-size: 40px;
+}
+.advantages__items i{
+	margin-right: 26px;
+}
+.advantages__items span{
+font-size: 22px;
+font-weight: 400;
+color: #010101;
+}
+.advantages__items p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+.line{
+	margin-top: 87px;
+}
+.search__form{
+	padding-bottom: 50px;
+	margin-top: 170px;
+	background-color: #010101;
+	padding-top: 100px;
+}
+.yellow{
+	color: #fcdb00;
+}
+form{
+	margin-top: 45px;
+}
+.form{
+	
+	width: 580px;
+	padding-left: 25px;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+button{
+	background-color: #fcdb00;
+	padding: 0px 35px;
+	margin-left: 21px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.gray{
+	color: #898989;
+}
+footer{
+	
+	background: #000;
+}
+.white{
+	color: #fff;
+	
+}
+
