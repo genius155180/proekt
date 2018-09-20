@@ -38,5 +38,8 @@ h1,.item__transcription,.item__desc{
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-
+input{
+    font-size: 11px;
+    
+}
 }

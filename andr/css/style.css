@@ -43,6 +43,9 @@ a:active{
 }
 .app__list li{
 	margin-right: 38px;
+	
+}
+.app__list{
 	margin-top: 42px;
 }
 h1{
@@ -70,7 +73,7 @@ color: #313841;
 	font-size: 40px;
 }
 .advantages__items i{
-	margin-right: 26px;
+	width: 60px;
 }
 .advantages__items span{
 font-size: 22px;
