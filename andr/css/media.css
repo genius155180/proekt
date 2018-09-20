@@ -3,43 +3,47 @@
 
 /* Portrait tablets and small desktops */
 @media screen and (min-width: 991px) {
-    .nav li{
-        margin-left: 32px;
-        
-    }
 
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
-    .nav li{
-        margin-left: 32px;
-        
-    }
+    
+}
 
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
 .nav{
     justify-content: center;
 }
-.logo{
-    align-items: center;
+h1{
+    text-align: center;
     
 }
-h1,.item__transcription,.item__desc{
+.item__transcription,.item__desc{
     text-align: center;
+}
+.logo{
+    justify-content: center;
 }
 .app__list{
     justify-content: center;
 }
+.nav li{
+    margin-right: 50px;
 }
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
+.form{
+	
+	width: 540px;
+	padding-left: 10px;
+	height: 50px;
+	border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
 }
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-input{
-    font-size: 11px;
-    
+
 }
 }
