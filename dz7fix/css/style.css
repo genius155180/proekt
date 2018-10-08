@@ -125,6 +125,9 @@ nav ul li:hover{
 
 	font-size: 16px;
 }
+.tel p{
+    width: 160px;
+}
 .tel li{
 	margin-right:10px;
 }
@@ -161,6 +164,8 @@ h2{
 .advantages__item{
 	background-color: #e8e8e8;
 	padding: 45px 20px;
+    height: 360px;
+    width: 380px;
 }
 
 .advantages__item img{
@@ -171,9 +176,7 @@ h2{
 	font-family: 'MuseoSansCyrl100';
 	font-size: 17px;
 }
-.advantages__list{
-	margin-top: 70px;
-}
+
 /*Блок переезд в Болгарию*/
 .more_information{
 	padding-bottom: 100px;
@@ -184,6 +187,15 @@ h2{
 }
 .black{
 	color: black;
+}
+.humburger{
+	display: none;
+
+    align-items: center;
+}
+.main__menu{
+    display: flex;
+    align-items: center;
 }
 .quote{
 	font-family: 'MuseoSansCyrl100Italic';
@@ -215,7 +227,7 @@ h2{
 	margin-bottom: -30px;
 
 }
-.fa-caret-down{
+.question i{
 	background-color: #213646;
 	width: 30px;
 	height: 30px;
@@ -386,11 +398,15 @@ h2{
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
-.consultation__row .fa-caret-down {
-	background-color: #11b2f5 !important;
-	width: 30px;
-	height: 30px;
-	margin-bottom: 30px;
+.consultation__row{
+	width: 40px;
+	height: 40px;
+    border: 2px dashed #fff;
+	border-radius:50%;
+	margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 input{width: 370px;
 	display: block;
