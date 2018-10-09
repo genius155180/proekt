@@ -110,6 +110,9 @@ nav ul li a{
 
 
 }
+.main__nav{
+	display: flex;
+}
 nav ul li{
 	margin-right: 6px;
 	border: 1px solid rgba(52, 91, 112, 0);
@@ -188,11 +191,7 @@ h2{
 .black{
 	color: black;
 }
-.humburger{
-	display: none;
 
-    align-items: center;
-}
 .main__menu{
     display: flex;
     align-items: center;
@@ -443,6 +442,7 @@ footer{
 
 }
 .footer__tel{
+	display: flex;
 	margin-left: 50px;
 }
 .footer__link a{
